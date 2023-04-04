@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smartwatches</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <nav class="navbar navbar-expand-lg shadow-sm">
+                <div class="container-fluid">
+                    <img class="nav-img" src="../images/trollex images.jpg" alt="">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item me-3">
+                                <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                            </li>
+                            <li class="nav-item dropdown me-3">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Σχετικά με
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="../contact us/index.html">contact us</a></li>
+                                    <li><a class="dropdown-item" href="../about/smartwatches.html">Smartwatches</a></li>
+                                    <li><a class="dropdown-item" href="../about/technology.html">Technologys</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../products/smartwatches.html">ρολόγια</a>
+                            </li>
+                        </ul>
+                        <div class="counterOfItems">
+                            <div class="numOfItems">0</div>
+                        </div>
+                        <i class='bx bx-shopping-bag' id="cart-icon"></i>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="cart">
+                <h2 class="cart-title">Δεν έχετε προσθέσει κανένα προιόν</h2>
+                <div class="cart-content">
+
+                </div>
+                <div class="total">
+                    <div class="total-title">Total</div>
+                    <div class="total-price">$0</div>
+                </div>
+                <button type="button" class="btn-buy">Αγορασε τωρα</button>
+                <i class='bx bx-x' id="close-cart"></i>
+            </div>
+        </nav>
+
+    </header>
+    <div class="container" style="margin-top: 104px;">
+        <h2 class="text-center mt-3 mb-3 display-3 fs-1"> Smartwatches</h2>
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                categories
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="smartwatches.html">Smartwatches</a></li>
+              <li><a class="dropdown-item" href="clothes.html">Clothes</a></li>
+            </ul>
+          </div>
+        <div class="row">
+            <!-- <div class="col-3">
+                <h2>Categories</h2>
+                <a href="./clothes.html">clothes</a>
+            </div> -->
+            <div class="col-12">
+                <div class="row">
+                    <div sku="0001" class="product-box col-sm-6 col-md-4 col-lg-3 text-center"> <!-- sku 0001 -->
+                        <img src="../images/trollex-smartwatch.png" alt="" class="product-img">
+                        <h2 class="product-title">Trollex Watch μαuρο</h2>
+                        <div class="price">$179</div>
+                        <button type="button" class="btn btn-dark">buy</button>
+                        <i class="bx bx-shopping-bag add-cart"></i>
+                        <i></i>
+                    </div>
+
+                    <div sku="0002" class="product-box col-sm-6 col-md-4 col-lg-3 text-center">  <!-- sku 0002 -->
+                        <img src="../images/Smartwatch T100 Plus.jpeg" alt="" class="product-img">
+                        <h2 class="product-title">TROLLEX SMARTWATCH T100 PLUS</h2>
+                        <div class="price">$37.00</div>
+                        <button type="button" class="btn btn-dark">buy</button>
+                        <i class="bx bx-shopping-bag add-cart"></i>
+                        <i></i>
+                    </div>
+
+                    <div sku="0003" class="product-box col-sm-6 col-md-4 col-lg-3 text-center">  <!-- sku 0003 -->
+                        <img src="../images/RIVERSONG Smartwatch Motive.png" alt="" class="product-img">
+                        <h2 class="product-title">Trollex Smartwatch Motive</h2>
+                        <div class="price">$21.00</div>
+                        <button type="button" class="btn btn-dark">buy</button>
+                        <i class="bx bx-shopping-bag add-cart"></i>
+                        <i></i>
+                    </div>
+
+                    <div class="product-box col-sm-6 col-md-4 col-lg-3 text-center">
+                        <img src="../images/HUAWEI Watch GT Runner Smartwatch.png" alt="" class="product-img">
+                        <h2 class="product-title">Trollex Watch GT Runner</h2>
+                        <div class="price">$57.00</div>
+                        <button type="button" class="btn btn-dark">buy</button>
+                        <i class="bx bx-shopping-bag add-cart"></i>
+                        <i></i>
+                    </div>
+
+                    <div class="product-box col-sm-6 col-md-4 col-lg-3 text-center">
+                        <img src="../images/HuaweiwatchFit2.png" alt="" class="product-img">
+                        <h2 class="product-title">Trollex Watch Galaxy</h2>
+                        <div class="price">$129.00</div>
+                        <button type="button" class="btn btn-dark">buy</button>
+                        <i class="bx bx-shopping-bag add-cart"></i>
+                        <i></i>
+                    </div>
+
+                    <div class="product-box col-sm-6 col-md-4 col-lg-3 text-center">
+                        <img src="../images/SAMSUNG Galaxy Watch5 44mm.png" alt="" class="product-img">
+                        <h2 class="product-title">Trollex Galaxy Watch5 44mm</h2>
+                        <div class="price">$329,9</div>
+                        <button type="button" class="btn btn-dark">buy</button>
+                        <i class="bx bx-shopping-bag add-cart"></i>
+                        <i></i>
+                    </div>
+
+                    <div class="product-box col-sm-6 col-md-4 col-lg-3 text-center">
+                        <img src="../images/XIAOMI Redmi Watch 2 Lite Μαύρο Smartwatch.png" alt="" class="product-img">
+                        <h2 class="product-title">Trollex Watch 2 Lite Μαuρο</h2>
+                        <div class="price">$59,9</div>
+                        <button type="button" class="btn btn-dark">buy</button>
+                        <i class="bx bx-shopping-bag add-cart"></i>
+                        <i></i>
+                    </div>
+
+                    <div class="product-box col-sm-6 col-md-4 col-lg-3 text-center">
+                        <img src="../images/GARMIN fenix 7S Silver Whitestone.png" alt="" class="product-img">
+                        <h2 class="product-title">Trollex Watch 2 White Runner</h2>
+                        <div class="price">$699</div>
+                        <button type="button" class="btn btn-dark">buy</button>
+                        <i class="bx bx-shopping-bag add-cart"></i>
+                        <i></i>
+                    </div>
+
+                    <div class="product-box col-sm-6 col-md-4 col-lg-3 text-center">
+                        <img src="../images/HUAWEI Watch GT 2 Pro Γκρι.png" alt="" class="product-img">
+                        <h2 class="product-title">Trollex Watch GT 2 Pro Γκρι</h2>
+                        <div class="price">$179</div>
+                        <button type="button" class="btn btn-dark">buy</button>
+                        <i class="bx bx-shopping-bag add-cart"></i>
+                        <i></i>
+                    </div>
+
+                    <div class="product-box col-sm-6 col-md-4 col-lg-3 text-center">
+                        <img src="../images/pixelsmartwatch.png" alt="" class="product-img">
+                        <h2 class="product-title">Trollex Galaxy Watch5 40mm</h2>
+                        <div class="price">$342</div>
+                        <button type="button" class="btn btn-dark">buy</button>
+                        <i class="bx bx-shopping-bag add-cart"></i>
+                        <i></i>
+                    </div>
+
+                    <div class="product-box col-sm-6 col-md-4 col-lg-3 text-center">
+                        <img src="../images/XIAOMI Watch S1 Active Λευκό Smartwatch.png" alt="" class="product-img">
+                        <h2 class="product-title">Trollex Watch S1 Active Λευκό</h2>
+                        <div class="price">$25,32</div>
+                        <button type="button" class="btn btn-dark">buy</button>
+                        <i class="bx bx-shopping-bag add-cart"></i>
+                        <i></i>
+                    </div>
+
+                    <div class="product-box col-sm-6 col-md-4 col-lg-3 text-center">
+                        <img src="../images/AMAZFIT GTR 2e Slate Grey Smartwatch.png" alt="" class="product-img">
+                        <h2 class="product-title">Trollex GTR 2e Slate Grey</h2>
+                        <div class="price">$179</div>
+                        <button type="button" class="btn btn-dark">buy</button>
+                        <i class="bx bx-shopping-bag add-cart"></i>
+                        <i></i>
+                    </div>
+
+                    <div class="product-box col-sm-6 col-md-4 col-lg-3 text-center">
+                        <img src="../images/SAMSUNG Galaxy Watch5 Pro LTE 45mm Titanium Μαύρο Smartwatch.png" alt=""
+                            class="product-img">
+                        <h2 class="product-title">Trollex Watch GT 2 Pro Γκρι</h2>
+                        <div class="price">$519,89</div>
+                        <button type="button" class="btn btn-dark">buy</button>
+                        <i class="bx bx-shopping-bag add-cart"></i>
+                        <i></i>
+                    </div>
+
+                    <div class="product-box col-sm-6 col-md-4 col-lg-3 text-center">
+                        <img src="../images/GARMIN epix Sapphire Titanium Carbon Grey.png" alt="" class="product-img">
+                        <h2 class="product-title">Trollex epix Sapphire Titanium</h2>
+                        <div class="price">$542</div>
+                        <button type="button" class="btn btn-dark">buy</button>
+                        <i class="bx bx-shopping-bag add-cart"></i>
+                        <i></i>
+                    </div>
+
+                    <div class="product-box col-sm-6 col-md-4 col-lg-3 text-center">
+                        <img src="../images/SAMSUNG Galaxy Watch 3 45mm Ασημί με μαύρο δερμάτινο λουράκι.png" alt=""
+                            class="product-img">
+                        <h2 class="product-title">Trollex Galaxy Watch 3 45mm</h2>
+                        <div class="price">$409</div>
+                        <button type="button" class="btn btn-dark">buy</button>
+                        <i class="bx bx-shopping-bag add-cart"></i>
+                        <i></i>
+                    </div>
+
+                    <div class="product-box col-sm-6 col-md-4 col-lg-3 text-center">
+                        <img src="../images/HUAWEI Watch GT 2 Pro Μαύρο.png" alt="" class="product-img">
+                        <h2 class="product-title">Trollex Watch GT 2 Pro Μαύρο</h2>
+                        <div class="price">$135</div>
+                        <button type="button" class="btn btn-dark">buy</button>
+                        <i class="bx bx-shopping-bag add-cart"></i>
+                        <i></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="mt-3 bg-light py-3">
+        <div class="container">
+            © Company 2022
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+    <script src="https://kit.fontawesome.com/ed05b05e97.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
